@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluey Finance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Quicksand', sans-serif; }
+        .bg-clouds {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cpath d='M25 40c-5 0-9 4-9 9s4 9 9 9h50c5 0 9-4 9-9s-4-9-9-9-9-4-9-9 4-9 9-9c-10 0-18 8-18 18 0 5 2 9 5 12-3 0-5 2-5 5s2 5 5 5h3z' fill='%23ffffff' fill-opacity='0.2'/%3E%3C/svg%3E");
+        }
+        .bg-city-silhouette {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='100' viewBox='0 0 1000 100'%3E%3Cpath d='M0 100h1000V80h-50l-10-20h-40l-5 10h-60l-20-40h-50l-10 30h-80l-30-50h-60l-10 20h-70l-25-30h-50l-15 40h-90l-20-60h-70l-30 80h-80l-10-30h-60l-15 20h-50V100z' fill='%234A7DA5' fill-opacity='0.05'/%3E%3C/svg%3E");
+            background-position: bottom;
+            background-repeat: repeat-x;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+    </style>
+    <!-- Google Identity Services & GAPI -->
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="https://apis.google.com/js/api.js" async defer></script>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+  }
+}
+</script>
+</head>
+<body class="bg-[#FFF9E5] bg-city-silhouette min-h-screen">
+    <div id="root"></div>
+</body>
+</html>
